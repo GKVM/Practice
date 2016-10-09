@@ -1,4 +1,4 @@
-package com.gkvm.hackerrank.algorithms
+package com.gkvm.hackerrank.algorithms.warmup
 
 /** Given a square matrix of size N x N, calculate the absolute difference between the sums of its diagonals.
 
@@ -40,7 +40,7 @@ Difference: |4 - 19| = 15
 /**
   * Created by gkvm on 9/28/16.
   */
-object Solution {
+object DiagonalDifference {
 
   def main(args: Array[String]) {
     val sc = new java.util.Scanner (System.in);
